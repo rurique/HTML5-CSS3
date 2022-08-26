@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgba(56, 56, 56, 56);
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a::before {
+            content: '-> ';
+        }
+
+        a::after {
+            content: ' <-';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <li><a href="https://facebook.com/rurique/" rel="external" target="_blank">Página do Facebook</a></li>
+    <li><a href="https://youtube.com" rel="external" target="_blank">Página do Youtube</a></li>
+    <li><a href="https://gmail.com" rel="external" target="_blank">Página do Gmail</a></li>
+</body>
+</html>

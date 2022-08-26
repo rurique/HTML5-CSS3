@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, rgb(212, 199, 12),rgb(153, 0, 255));
+    
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 3px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(100, 94, 5);
+    text-align: center;
+    text-indent: 30px;
+
+}
+
+p#voltar {
+    text-align: center;
+}
