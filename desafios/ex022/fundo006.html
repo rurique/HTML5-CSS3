@@ -7,13 +7,11 @@
     <title>Fundo fixo de tela</title>
     <style>
         body {
+            /*Shorthand background
+            color > image > position > repeat > [size] > attachment*/
             height: 100vh;
-            background-color: black;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
-            background-repeat: no-repeat;
+            background: black url('imagens/wallpaper002.jpg') no-repeat fixed;
             background-size: cover;
-            background-attachment: fixed;
         }
 
         main {
